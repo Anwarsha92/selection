@@ -202,6 +202,16 @@ li{
     font-weight: lighter;
     font-size: small;
 }
+.top{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+}
+.top:hover{
+    
+    color: rgb(185, 184, 184);
+}
 .list{
     float: left;
 }
