@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chivo+Mono:wght@100&family=Cormorant+Garamond:wght@300&family=Poppins&family=Roboto:wght@100&family=Rubik+Gemstones&family=Sofia+Sans:wght@1&family=Solitreo&family=Solway&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu {
+    margin-left: auto;
+}
+.menu a:hover{
+border-bottom: 5px red solid;
+}
+
+.header {
+    width: 100%;
+    min-height: 60px;
+    background-color: rgba(255, 255, 255, 0.899);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    padding: 0px 5% 0px 5%;
+    z-index: 1;
+}
+
+.selection {
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://i.postimg.cc/SRs376Tf/luxurious-car-parked-highway-with-illuminated-headlight-sunset.jpg);
+    background-color: rgb(226, 226, 226);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background input{
+    width: 280px;
+    border-radius:15px 0px 0px 15px;
+    border: none;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.background input:focus{
+
+    outline: none;
+}
+.background button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius:0px 15px 15px 0px;
+    background-color: white;
+    cursor: pointer;
+}
+.background button:active{
+    scale: .97;
+}
+
+.background button:hover{
+    
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+
+.background h1{
+    color: yellow;
+}
+
+
+.select {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#label {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.subheading {
+    color: rgb(72, 72, 72);
+    padding: 10px 50px 10px 50px;
+}
+.pngdiv{
+    text-align: center;
+
+}
+
+.pngcar {
+    width: 80%;
+
+}
+
+.parent {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgb(72, 72, 72);
+    cursor: pointer;
+}
+
+.child:hover{
+    /* box-shadow: 1px 15px 55px 1px rgb(98, 98, 98); */
+    border: .5px rgb(148, 148, 148) solid;
+}
+.child img{
+    height: 200px;
+    width: 100%;
+}
+.child a{
+    font-weight: bolder;
+}
+
+.detailmain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+.detail {
+    text-align: center;
+}
+.modellink:hover{
+    color: red;
+    transform: scale(1.1);
+}
+.btallcars {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btallcars button {
+    width: 100px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 1px red solid;
+    border-radius: 5px;
+    /* box-shadow: 1px 5px 15px 1px rgb(0, 0, 0); */
+
+}
+
+.btallcars button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.btallcars button:active{
+    scale: .97;
+}
+
+.footer {
+    margin-top: 50px;
+    background-image: url(https://i.postimg.cc/MZB6r4wQ/funny-license-plate-vehicle.jpg);
+    background-color: rgba(63, 62, 62, 0.851);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+   padding-bottom: 10px;
+    min-height: 150px;
+    color: rgb(195, 195, 195);
+}
+.footercontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer li {
+    list-style: none;
+
+}
+.footer li a{
+    color: rgb(195, 195, 195);
+}
+
+
+
+.follow li {
+    display: inline;
+    padding: 5px;
+}
+.follow a{
+    color: white;
+
+}
+.sections li,
+.qlinks li {
+    padding: 1px;
+}
+
+.follow i{
+    font-size: larger;
+}
+
+.follow i:hover{
+    transform: scale(1.3);
+
+}
+#carimage{
+    transition: .5s;
+}
+#carimage:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.allrights{
+    text-align: center;
+}
+
+.sections a,
+.qlinks a{
+    font-size: smaller;
+    color: white;
+}
+
+@media(max-width:575px) {
+    .footercontent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child {
+        width: 80%;
+    }
+    nav a{
+        display: none;
+    }
+
+    .background{
+        font-size: small;
+        padding: 10px;
+    }
+    .background input{
+        width: 180px;
+        
+    }
+    .header .selection,.autos{
+        font-size: larger;
+    }
+}
+
+@media(min-width:575px) {
+    
+    nav button{
+        display: none;
+    }
+}
